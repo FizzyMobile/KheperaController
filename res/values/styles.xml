@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="NormalFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="KeywordFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_keyword</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="TitleFont" parent="@style/KeywordFont">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14pt</item>
+    </style>
+    
+    <style name="ErroFont" parent="@style/KeywordFont">
+        <item name="android:textColor">@color/red</item>
+    </style>
+    
+    <style name="AdditionalFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_additional</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="InstructionFont" parent="@style/AdditionalFont">
+        <item name="android:paddingTop">@dimen/textview_instruction_padding</item>
+        <item name="android:paddingBottom">@dimen/textview_instruction_padding</item>
+    </style>
+
+</resources>

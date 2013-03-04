@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Khepera Controller</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!--
+    	Spinners 
+    -->
+    <string name="robot_prompt">Choose a robot</string>
+    <string name="camera_prompt">Choose a camera</string>
+ 
+    <!--
+    	Menu options
+    -->
+    <string name="about">About</string>
+    <string name="about_message_title">About&#8230;</string>
+    <string name="about_message_content">This program is final project on Programming Mobile Devices.\n\nAuthors:\nKrzysztof Kotlarek\nMaksym Plencler</string>
+
+    <string name="help">Help</string>
+    <string name="help_message_title">Help&#8230;</string>
+    <string name="help_message_content">After selecting any robot from the list, select camera and then calibrate your device.
+        										\nThere need to be server running on selected robot (wojtek/tcp_server).\n\nHave fun!</string>
+
+    <!--
+    	Buttons
+    -->
+    <string name="calibrate">Calibrate</string>
+    <string name="run">START</string>
+    
+    <!--
+    	Texts
+    -->
+    <string name="title">Khepera III Controller</string>
+    <string name="pick_camera">Camera:</string>
+    <string name="pick_robot">Robot:</string>
+    <string name="instruction1">Select a robot from the list and pick a camera</string>
+    <string name="instruction2">Now calibrate your device</string>
+    <string name="none">Null</string>
+    <string name="calibration_title">Calibrate your device</string>
+    <string name="calibration_instruction">\n\nPut your phone in \'zero\' position and hit the button below&#8230;\n</string>
+    <string name="calibration_tip">Make it comfortable for you to steer!</string>
+    <string name="calibration_max">Max value:</string>
+    <string name="calibration_current">Current value:</string>
+    
+    <!--
+    	Errors
+    -->
+    <string name="error_sensorNotFound">Sensor could not be found!</string>
+    <string name="error_robotConnection">Could not connect with Khepera!</string>
+   	<string name="error_cameraConnection">Could not connect to video stream!</string>
+   	<string name="error_sensorOutOfRange">Inclination is out of range. Try again!</string>
+	
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+        Text colors  
+    -->
+   	<color name="text_normal">#FFFFFF</color>
+   	<color name="text_keyword">#A4C639</color>
+   	<color name="text_additional">#999999</color>
+	
+	<!--
+        Android standard colors from: http://developer.android.com/design/style/color.html 
+    -->
+	<color name="red">#FF4444</color>
+	<color name="dark_red">#FF4444</color>
+	
+	<color name="yellow">#FFBB33</color>
+	<color name="dark_yellow">#FFBB33</color>
+	
+	<color name="green">#99CC00</color>
+	<color name="dark_green">#99CC00</color>
+	
+	<color name="purple">#AA66CC</color>
+	<color name="dark_purple">#AA66CC</color>
+	
+	<color name="blue">#33B5E5</color>
+	<color name="dark_blue">#33B5E5</color>
+	
+	<!--
+        Speed-color colors  
+    -->
+	    <!--
+	        STOP  
+	    -->
+	    <color name="speed_stop">#FFFFFF</color>
+	    <color name="speed_stop_selected">#E2F4FB</color>
+	    
+    	<!--
+	        FORWARD  
+	    -->
+	    <color name="speed_forward1">#C5E26D</color>
+	    <color name="speed_forward1_selected">#A8D324</color>
+	    
+		<color name="speed_forward2">#92C500</color>
+		<color name="speed_forward2_selected">#83B600</color>
+		
+		<color name="speed_forward3">#7CAF00</color>
+		<color name="speed_forward3_selected">#669900</color>
+		
+		<color name="speed_forward4">#FFB61C</color>
+		<color name="speed_forward4_selected">#FF9105</color>
+		
+		<color name="speed_forward5">#FF5F5F</color>
+		<color name="speed_forward5_selected">#DB1313</color>
+		
+		<!--
+	        REARWARD
+	    -->
+		<color name="speed_rearward1">#50C0E9</color>
+		<color name="speed_rearward1_selected">#33B5E5</color>
+		
+		<color name="speed_rearward2">#1DA9DA</color>
+		<color name="speed_rearward2_selected">#079DD0</color>
+	
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sensor_default_x" type="attr">0</item>
+    <item name="sensor_default_y" type="attr">0</item>
+    <item name="sensor_maxalpha" type="attr">45</item>
+    <item name="sensor_maxbeta" type="attr">45</item>
+    <item name="sensor_vmax" type="attr">40000</item>
+</resources>

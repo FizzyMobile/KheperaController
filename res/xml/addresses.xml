@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<devices>
+	<robots>
+		<robot id="Valentino">192.168.0.104</robot>
+		<robot id="Karel">192.168.0.103</robot>
+		<robot id="Izaac">192.168.0.102</robot>
+	</robots>
+	
+	<cameras>
+		<camera id="Left eyehole">rtsp://192.168.0.105:554/live.3gp</camera>
+		<camera id="None">NUL</camera>
+		<camera id="Right eyehole">rtsp://192.168.0.106:554/live.3gp</camera>
+	</cameras>
+</devices>
